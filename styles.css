@@ -13,3 +13,23 @@ th, td {
 th {
     background-color: lightgray;
 }
+
+@media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to MASCorp Investment!";
+        color:blue;
+        font-size: 40;
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+        content: "MASCorp Investment";
+        color: blue;
+        font-size: 15;
+    }
+
+a::before {
+    content: "\21d2  Click here: ";
+    font-weight: bold;
+}
