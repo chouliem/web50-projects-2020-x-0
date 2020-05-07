@@ -27,7 +27,12 @@ Requirement
     (completed in styles.css - with implemeting @media for smaller browser)
     
  6. You must use Bootstrap 4 on your website. (completed by comparing ratios of several stocks in tables in ratio.html)
- 7. Your stylesheet must use at least one SCSS variables, at least one example of SCSS nesting and at least one use of SCSS inheritance. (To be completed)
+ 7. Your stylesheet must use at least one SCSS variables, at least one example of SCSS nesting and at least one use of SCSS inheritance. 
+    - modifying $thbackground-color, $tdbackground-color and $paddingsize in Styles.scss file
+    - using nested SCSS in styles.scss file (.row>div)
+    - using SCSS inheritance in aboutus by changing background color in a division
+    
  8. In README.md, include a short writeup describing your project, what's contained in each file and optionally any other additional information the staff should know about your project. 
- 
+    - After finishing this coursework I will be working on improving this project on my own by doing update about current stock market and my portfolio and stocks that interest me. 
+    
  
