@@ -1,0 +1,13 @@
+.bond, .stock {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px; }
+
+.bond {
+  background-color: green; }
+
+.stock {
+  background-color: orange; }
+
+/*# sourceMappingURL=inheritance.css.map */
