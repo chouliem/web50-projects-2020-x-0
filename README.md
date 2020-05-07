@@ -19,14 +19,14 @@ Requirement
    - in styles.css - implementing multiple element selector (th, td {..}
                    - implementing pseudoclass selector (h1::before {..}
                    - CSS properties implemented border, padding, text-align, background-color
-   - in ratio.css - implementing child selector (.row > div {..})
+   - in ratio.html - implementing child selector (.row > div {..})
                   - implementing class selector (.row)
                   - CSS properties implemented table-layout
    
  5. Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling for smaller screen. 
     (completed in styles.css - with implemeting @media for smaller browser)
     
- 6. You must use Bootstrap 4 on your website. (completed)
+ 6. You must use Bootstrap 4 on your website. (completed by comparing ratios of several stocks in tables in ratio.html)
  7. Your stylesheet must use at least one SCSS variables, at least one example of SCSS nesting and at least one use of SCSS inheritance. (To be completed)
  8. In README.md, include a short writeup describing your project, what's contained in each file and optionally any other additional information the staff should know about your project. 
  
