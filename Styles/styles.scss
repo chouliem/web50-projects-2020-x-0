@@ -1,0 +1,42 @@
+
+$thbackground-color: gray;
+$tdbackground-color: lightgreen;
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: $thbackground-color;
+}
+
+td {
+    background-color: $tdbackground-color;
+}
+
+
+
+@media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to MASCorp Investment!";
+        color:blue;
+        font-size: 40;
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+        content: "MASCorp Investment";
+        color: blue;
+        font-size: 25;
+    }
+
+}
